@@ -12,8 +12,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-import com.ecommerce.model.dao.UserDAO;
+import com.ecommerce.model.dao.ProductDAO;
 
+import com.ecommerce.model.dao.UserDAO;
+import com.ecommerce.model.entity.ProductOrder;
+import com.ecommerce.model.entity.Review;
 
 @WebServlet(name = "AdminHomeServlet", value = "/admin/")
 public class AdminHomeServlet extends HttpServlet {
@@ -25,13 +28,18 @@ public class AdminHomeServlet extends HttpServlet {
 			throws ServletException, IOException {
 		UserDAO userDAO = new UserDAO();
 		
+		ProductDAO productDAO = new ProductDAO();
+		
+
 
 		long totalUsers = userDAO.count();
+		long totalProducts = productDAO.count();
 		
 
 		
 
 		request.setAttribute("totalUsers", totalUsers);
+		request.setAttribute("totalProducts", totalProducts);
 		
 
 		forwardToPage("index.jsp", request, response);
