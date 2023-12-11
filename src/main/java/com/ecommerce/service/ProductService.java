@@ -368,8 +368,7 @@ public class ProductService {
 			Customer customer = (Customer) request.getSession().getAttribute("loggedCustomer");
 			if (customer != null) {
 				List<Product> listOrderedProducts = productDAO.listOrderedProductsByCustomer(customer.getCustomerId());
-
-				if (listOrderedProducts.contains(product)) {
+				if (listOrderedProducts.contains(product)){
 					request.setAttribute("unlockReview", true);
 				}
 			}
