@@ -8,7 +8,7 @@
 
     <%@ include file="common.jsp" %>
 
-    <title>Check out - Venus Shop</title>
+    <title>Check out - Fishy Shop</title>
 </head>
 <body>
 <%@ include file="header.jsp" %>

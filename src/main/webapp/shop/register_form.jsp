@@ -106,7 +106,7 @@
                                 <input type="checkbox" name="agree-term" id="agree-term"
                                        class="agree-term"/> <label for="agree-term"
                                                                    class="label-agree-term"><span><span></span></span>I
-                                agree all statements in <a href="#" class="term-service">Terms
+										agree all statements in <a href="#" class="term-service">Terms
                                     of service</a></label>
                             </div>
 
@@ -120,7 +120,7 @@
 
                     <div class="signup-image">
                         <figure>
-                            <img src="shop/images/logo-store.jpg" alt="sing up image">
+                            <img src="shop/images/logo-store.png" alt="sing up image">
                         </figure>
                         <a href="login" class="signup-image-link">I am already member</a>
                     </div>

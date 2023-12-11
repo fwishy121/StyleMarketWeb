@@ -63,7 +63,7 @@
 
                     <div class="signin-image">
                         <figure>
-                            <img src="shop/images/logo-store.jpg" alt="sing up image">
+                            <img src="shop/images/logo-store.png" alt="sing up image">
                         </figure>
                         <a href="register">Create an account</a>
                     </div>

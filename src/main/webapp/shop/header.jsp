@@ -5,7 +5,7 @@
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
         <div class="container">
             <a class="navbar-brand" href="${pageContext.request.contextPath}/"><i
-                    class="fas fa-shopping-bag primary-color mr-1"></i> Venus</a>
+                    class="fas fa-shopping-bag primary-color mr-1"></i>FISHY</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbar-1" aria-controls="navbar-1"
                     aria-expanded="false" aria-label="Toggle navigation">

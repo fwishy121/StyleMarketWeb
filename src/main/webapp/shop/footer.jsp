@@ -5,7 +5,7 @@
             <div class="col-sm-6 col-md-3 pt-2">
                 <h5>EXCLUSIVE SERVICES</h5>
                 <ul class="nav-footer">
-                    <li class="nav-item"><a class="nav-link" href="#">Venus
+                    <li class="nav-item"><a class="nav-link" href="#">FISHY
                         Services</a></li>
                 </ul>
             </div>

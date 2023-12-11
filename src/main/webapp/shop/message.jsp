@@ -30,7 +30,7 @@
 
                     <div class="signup-image">
                         <figure>
-                            <img src="shop/images/logo-store.jpg" alt="">
+                            <img src="shop/images/logo-store.png" alt="">
                         </figure>
                         <a href="${pageContext.request.contextPath}/">Continue Shopping</a>
                     </div>
