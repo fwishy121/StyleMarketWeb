@@ -1,4 +1,4 @@
-package com.ecommerce.controller.shop.product;
+package com.ecommerce.controller.admin.order;
 
 import java.io.IOException;
 
@@ -8,18 +8,18 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.ecommerce.service.ProductService;
+import com.ecommerce.service.OrderService;
 
-@WebServlet(name = "ViewProductServlet", value = "/view_product")
-public class ViewProductServlet extends HttpServlet {
+@WebServlet(name = "ListOrderServlet", value = "/admin/list_order")
+public class ListOrderServlet extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		ProductService productService = new ProductService(request, response);
-		productService.viewProductDetail();
+		OrderService orderService = new OrderService(request, response);
+		orderService.listOrder();
 	}
 
 }

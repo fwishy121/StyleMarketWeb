@@ -1,4 +1,4 @@
-package com.ecommerce.controller.shop.order;
+package com.ecommerce.controller.admin.order;
 
 import java.io.IOException;
 
@@ -10,16 +10,16 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.ecommerce.service.OrderService;
 
-@WebServlet(name = "ShowOrderDetailServlet", value = "/show_order_detail")
-public class ShowOrderDetailServlet extends HttpServlet {
+@WebServlet(name = "AddToOrderServlet", value = "/admin/add_to_order")
+public class AddToOrderServlet extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 
 	@Override
-	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		OrderService orderService = new OrderService(request, response);
-		orderService.showOrderDetailForCustomer();
+		orderService.addToOrder();
 	}
 
 }
