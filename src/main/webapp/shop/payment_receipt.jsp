@@ -26,11 +26,11 @@
                     <table>
                         <tr>
                             <td><b>Email: </b></td>
-                            <td>sales@onlinestore.com</td>
+                            <td>FishyShop.com</td>
                         </tr>
                         <tr>
                             <td><b>Phone: </b></td>
-                            <td>+1 123 456 789</td>
+                            <td>+0937206682</td>
                         </tr>
                     </table>
                 </div>

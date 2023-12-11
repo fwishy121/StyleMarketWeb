@@ -38,18 +38,6 @@
                         </div>
                     </li>
 
-                    <li class="nav-item dropdown"><a
-                            class="nav-link dropdown-toggle" href="#"
-                            role="button" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">Pages </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="${pageContext.request.contextPath}/">Homepage</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="view_cart">Cart</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item"><a class="nav-link" href="show_contact">Contact</a></li>
 
                     <li class="nav-item dropdown"><a
                             class="nav-link dropdown-toggle" href="#"
@@ -65,8 +53,8 @@
                             </c:if>
 
                             <c:if test="${loggedCustomer != null}">
-                                <a href="view_profile" class="dropdown-item">Welcome,
-                                        ${loggedCustomer.fullName}</a>
+                                <a href="view_profile" class="dropdown-item">
+                                        ${loggedCustomer.fullName} Profile</a>
                                 <div class="dropdown-divider"></div>
                                 <a href="view_order" class="dropdown-item">My Orders</a>
                                 <div class="dropdown-divider"></div>
